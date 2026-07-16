@@ -4,19 +4,172 @@
     box-sizing:border-box;
 }
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height:1.6;
+.hero_main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
 }
 
-section{
-    padding:60px 10%;
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
 }
 
-img{
-    max-width:100%;
+.navigation{
+    display: flex;
+    align-items: center;
 }
 
-button{
-    cursor:pointer;
+.icon{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
+
+.cup{
+    width: 90px;
+}
+
+
+.fifa{
+    color: white;
+    font-size: 30px;
+}
+
+.year{
+    color: rgb(204, 185, 13);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    width: 20px;
+    color: white;
+}
+
+.menu_img{
+    width: 20px;
+}
+
+.border{
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.border:hover{
+    border-bottom: 3px solid yellow;
+    border-radius: 5px;
+}
+
+.worldcup{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.heading{
+    display: flex;
+}
+
+.hero-content{
+    display: flex;
+}
+
+.text{
+    display: block;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.first{
+    color: white;
+    font-size: 70px
+}
+
+.second{
+   color: white;
+   font-size: 70px
+}
+
+.third{
+    color: rgb(204, 185, 13);
+    font-size: 70px
+}
+
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+.button{
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+
+}
+
+.view:hover{
+    background-color: rgb(200, 161, 7);
+    color: black;
+    border: 1px solid rgb(200, 161, 7);
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.stat_icon{
+    width: 40px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+}
+
+.stat_sub{
+    font-size: 20px;
+}
+
+.stat{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background: rgba(255,255,255,0.1);
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.button_{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+
